@@ -32,6 +32,7 @@ line-height: 1.4;
  color:white;
 }
 .content{
+  background-color:#387894;
   color:white;
   margin-top:10%;
   font-family: 'Raleway', sans-serif;
@@ -87,8 +88,13 @@ a{
 button:hover, a:hover {
   opacity: 0.7;
 }
-
-
+.team{
+  font-size:30px;
+}
+marquee{
+  
+  font-size:50px;
+:40%;}
 
 
 
