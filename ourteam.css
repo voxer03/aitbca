@@ -32,7 +32,7 @@ line-height: 1.4;
  color:white;
 }
 .content{
-  background-color:;
+
   color:white;
   margin-top:30%;
   font-family: 'Raleway', sans-serif;
@@ -63,7 +63,7 @@ padding: 2rem 0.5rem;
 }
 
 .title {
-  color: grey;
+  color: cyan;
   font-size: 18px;
 }
 
@@ -83,7 +83,7 @@ button {
 a{
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: white;
 }
 
 button:hover, a:hover {
