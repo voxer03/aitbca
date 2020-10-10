@@ -1,1 +1,1 @@
-# bcaait
+AITBCA  is my dream project to help the fresher of  the college to help them in their study, my providing the study material and notes to help them in there internals and also providing free tutorial in certian topics   
