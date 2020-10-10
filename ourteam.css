@@ -55,6 +55,7 @@ padding: 2rem 0.5rem;
   color:white;
 }
 .card {
+  margin-top:10%;
   box-shadow: 0 4px 8px 0 rgb(10, 250, 500);
   max-width: 300px;
   margin: auto;
