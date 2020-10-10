@@ -34,7 +34,7 @@ line-height: 1.4;
 .content{
   background-color:;
   color:white;
-  margin-top:10%;
+  margin-top:30%;
   font-family: 'Raleway', sans-serif;
 font-size: 40px;
 text-align:center;
@@ -51,11 +51,11 @@ padding: 2rem 0.5rem;
   color:yellow;
 }
 .team{
-  margin-top:10%;
+  margin-top:30%;
   color:white;
 }
 .card {
-  margin-top:20%;
+  margin-top:30%;
   box-shadow: 0 4px 8px 0 rgb(10, 250, 500);
   max-width: 300px;
   margin: auto;
@@ -92,9 +92,7 @@ button:hover, a:hover {
 .team{
   font-size:30px;
 }
-marquee{
-  
-  font-size:50px;
+marquee{font-size:50px;
 :40%;}
 
 
