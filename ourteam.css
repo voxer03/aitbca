@@ -1,6 +1,6 @@
 body{
   
-background-color:#303841;
+background-image:url('https://www.versionbeta.istemanit.in/pictures/background.jpg');
 font-family: 'Poppins', sans-serif;
 font-weight: 500;
 line-height: 1.4;
@@ -16,15 +16,15 @@ line-height: 1.4;
   z-index: 10;
     width: 100%;
   height:8%;
-    background-color:#be3144;
+    background-color:purple;
     font-size:5ex;
-    text-align:right;
+    text-align:center;
     color:white;
 }
 
 .navbar:hover{
-  background-color:green;
-  color:yellow;
+  font-size:1ex;
+  color:cyan;
   
 }
 .navbar{
@@ -32,16 +32,16 @@ line-height: 1.4;
  color:white;
 }
 .content{
-
+  background-color:;
   color:white;
-  margin-top:30%;
+  margin-top:%;
   font-family: 'Raleway', sans-serif;
 font-size: 40px;
 text-align:center;
 
 }
 .link{
-  color:blue;
+  color:cyan;
 font-size: 2rem;
 padding: 2rem 0.5rem;
 
@@ -51,11 +51,10 @@ padding: 2rem 0.5rem;
   color:yellow;
 }
 .team{
-  margin-top:30%;
+  margin-top:10%;
   color:white;
 }
 .card {
-  margin-top:30%;
   box-shadow: 0 4px 8px 0 rgb(10, 250, 500);
   max-width: 300px;
   margin: auto;
@@ -63,7 +62,7 @@ padding: 2rem 0.5rem;
 }
 
 .title {
-  color: cyan;
+  color: white;
   font-size: 18px;
 }
 
@@ -92,12 +91,47 @@ button:hover, a:hover {
 .team{
   font-size:30px;
 }
-marquee{font-size:50px;
-:40%;}
 
+.demo{
+color:white;
+font-size:20px;}
+h1{
+  color:#be3144;
+  text-shadow: 10px 0 blue;
+}
+marquee{
+  color:yellow;
+font-size:30px;  
+ }
 
+.links{
+  background-color:;
+border-style:solid;
+border-left:none;
+  border-right:none;
+}
+.contact{
+  background-color:black;
+  width:100%;
+   margin:0;
+  bottom:0;
+    top: 100;
+    left: 0;
+  z-index: 10;
+    width: 100%;
+  
+}
+.hackathon{
+  background-color:;
+}
+footer{background-color:purple;
+  margin:0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 
-
-
+}
+p{
+ color:cyan;}
 
 
