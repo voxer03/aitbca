@@ -1,6 +1,6 @@
 body{
   
-background-color:#303841;
+background-image:url('https://www.versionbeta.istemanit.in/pictures/background.jpg');
 font-family: 'Poppins', sans-serif;
 font-weight: 500;
 line-height: 1.4;
@@ -16,7 +16,7 @@ line-height: 1.4;
   z-index: 10;
     width: 100%;
   height:8%;
-    background-color:#be3144;
+    background-color:purple;
     font-size:5ex;
     text-align:center;
     color:white;
@@ -34,14 +34,14 @@ line-height: 1.4;
 .content{
   background-color:;
   color:white;
-  margin-top:10%;
+  margin-top:5%;
   font-family: 'Raleway', sans-serif;
 font-size: 40px;
 text-align:center;
 
 }
 .link{
-  color:blue;
+  color:cyan;
 font-size: 2rem;
 padding: 2rem 0.5rem;
 
@@ -62,7 +62,7 @@ padding: 2rem 0.5rem;
 }
 
 .title {
-  color: grey;
+  color: white;
   font-size: 18px;
 }
 
@@ -82,7 +82,7 @@ button {
 a{
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: white;
 }
 
 button:hover, a:hover {
@@ -91,20 +91,29 @@ button:hover, a:hover {
 .team{
   font-size:30px;
 }
-marquee{
-  
-  font-size:50px;
-:40%;}
+
 .demo{
-color:grey;
+color:white;
 font-size:20px;}
 h1{
   color:#be3144;
   text-shadow: 10px 0 blue;
 }
+marquee{
+color:yellow;
+font-size:30px;  
+  direction:up;
+position:left;
+margin-right:50%;  
+border-style:solid;
+border-left:none;
+border-color:red;}
 
-
-
+.links{
+border-style:solid;
+border-left:none;
+  border-right:none;
+}
 
 
 
