@@ -225,8 +225,6 @@ marquee{
   color:yellow;
 font-size:30px;  
   direction:up;
-position:left;
-margin-right:50%;  
 border-style:solid;
 border-left:none;
 border-bottom:none;
@@ -234,9 +232,16 @@ border-right:none;
 }
 
 .links{
+  background-color:;
 border-style:solid;
 border-left:none;
   border-right:none;
+}
+.contact{
+  background-color:black;
+  width:100%;
+  
+  
 }
 
 
