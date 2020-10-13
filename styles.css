@@ -18,13 +18,13 @@ line-height: 1.4;
   height:8%;
     background-color:#be3144;
     font-size:5ex;
-    text-align:right;
+    text-align:center;
     color:white;
 }
 
 .navbar:hover{
-  background-color:green;
-  color:yellow;
+  font-size:1ex;
+  color:cyan;
   
 }
 .navbar{
@@ -95,7 +95,13 @@ marquee{
   
   font-size:50px;
 :40%;}
-
+.demo{
+color:grey;
+font-size:20px;}
+h1{
+  color:#be3144;
+  text-shadow: 10px 0 blue;
+}
 
 
 
