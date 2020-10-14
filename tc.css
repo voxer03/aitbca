@@ -1,7 +1,8 @@
 body{
   
-background-image:url('https://www.versionbeta.istemanit.in/pictures/background.jpg');
-font-family: 'Poppins', sans-serif;
+background-color:rgb(5,9,1);
+  opacity:85%;
+  font-family: 'Poppins', sans-serif;
 font-weight: 500;
 line-height: 1.4;
 }
