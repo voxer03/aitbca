@@ -1,6 +1,6 @@
 body{
   
-background:linear-gradnite(red,blue);
+background-image: linear-gradient(to right, purple , lightblue);
 font-family: 'Poppins', sans-serif;
 font-weight: 500;
 line-height: 1.4;
