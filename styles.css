@@ -1,6 +1,6 @@
 body{
   
-background-image: linear-gradient(to right, #ff2443 , orange);
+background-image: linear-gradient( 110deg ,cyan,orange,black);
 font-family: 'Poppins', sans-serif;
 font-weight: 500;
 line-height: 1.4;
@@ -181,9 +181,11 @@ h1{
 
 }
 
-
-
-
+.foot{
+  
+  width:100%;
+  opacity:80%;
+  background-color:black;}
 
 
 
