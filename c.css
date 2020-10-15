@@ -1,10 +1,6 @@
 body{
   
-background-image:url('https://www.hackcbs.tech/assets/img/background.png');
-background-position: center;
-  background-repeat: no-repeat;
-  background-size: 220ex 75ex ;
- height:50%;
+background-color:rgb(5,9,1);
   opacity:85%;
   font-family: 'Poppins', sans-serif;
 font-weight: 500;
@@ -21,7 +17,7 @@ line-height: 1.4;
   z-index: 10;
     width: 100%;
   height:8%;
-    background-color:green;
+    background-color:purple;
     font-size:5ex;
     text-align:center;
     color:white;
@@ -101,7 +97,7 @@ button:hover, a:hover {
 color:white;
 font-size:20px;}
 h1{
-  color:orange;
+  color:#be3144;
   text-shadow: 10px 0 blue;
 }
 marquee{
