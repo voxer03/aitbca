@@ -8,5 +8,5 @@
   </ol>
   <h2>Reasone Why I built ?</h2> 
 AS when I begain my journey in the college there were no one to guide me about my course or what should I do ? How  should I do?
-when i get to know about all these stuff it was bit late for that 
-so the new students don't get confused like i got so bulid this website 
+when i get to know about all these stuff it was bit late for that
+so the new students don't get confused like i got so build this website
