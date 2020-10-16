@@ -6,7 +6,7 @@ text-align:center;
 margin-left:0;
 top:0;
 height:8ex;
-position:fixed;}
+}
 
 .bu{
   
@@ -16,6 +16,7 @@ position:fixed;}
   }
 .navbar:hover{
   color:red;
+  position:fixed;
 }
 
 .bu:hover{
@@ -446,7 +447,20 @@ margin-top:-31%;
 text-align:;
 }
 
+.speaker{
+  background-color:black;
+  opacity:90%;
+  border-color:white;
+  border-width:0.5ex;
+  }
 
+.notice{
+  
+}
+h3{color:yellow;
+  font-size:5ex;
+  text-align:center;
+}
 
 
 
