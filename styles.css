@@ -5,6 +5,15 @@ font-family: 'Poppins', sans-serif;
 font-weight: 500;
 line-height: 1.4;
 }
+.o:hover{
+  font-size:1ex;
+  color:cyan;
+  
+}
+.o{
+  margin-left:10%;
+ color:white;
+}
 
 .navba{
    
