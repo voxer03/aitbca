@@ -1,3 +1,61 @@
+.navbar{
+  
+background-color:white;
+width:100%;
+text-align:center;  
+margin-left:0;
+top:0;
+height:8ex;}
+
+.bu{
+  color:black;
+  margin-left:5ex;
+  font-size:25px;
+  }
+
+.bu:hover{
+  color:green;
+  font-size:22px;
+  }
+
+.back{
+  opacity:80%;
+}
+h1{
+  opacity:100%;
+  font-size:9ex;
+  }
+
+h2{
+  font-size:5ex;
+}
+
+
+.top{
+  background-image:url('https://www.hackchennai.in/images/illus.svg')
+;
+opacity:80%;}
+
+
+.aboutback{
+  width:100%;
+  height:30%;
+  background-color:black;
+}
+
+.heading{
+ color:white;
+  text-align:center;
+  font-size:40px;
+  
+}
+
+
+.or{ color:cyan;
+  text-align:center;
+  font-size:5ex;
+}
+
 body{
   
 background-image: linear-gradient( 110deg ,cyan,orange,black);
@@ -199,6 +257,222 @@ margin-top:-31%;
 .demo{
 text-align:;
 }
+
+
+
+
+
+
+body{
+  
+background-image: linear-gradient( 110deg ,cyan,orange,black);
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+line-height: 1.4;
+}
+.o:hover{
+  font-size:1ex;
+  color:cyan;
+  
+}
+.o{
+  margin-left:10%;
+ color:white;
+}
+
+.navba{
+   
+    margin:0;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+  z-index: 10;
+    width: 100%;
+  height:10%;
+    background-color:green;
+    font-size:5ex;
+    text-align:center;
+    color:white;
+}
+
+.navbar:hover{
+  font-size:1ex;
+  color:cyan;
+  
+}
+.navbar{
+  margin-left:10%;
+ color:white;
+}
+.content{
+  background-color:;
+  color:white;
+  margin-top:%;
+  font-family: 'Raleway', sans-serif;
+font-size: 40px;
+text-align:center;
+
+}
+.link{
+  color:cyan;
+font-size: 2rem;
+padding: 2rem 0.5rem;
+
+}
+
+.link:hover{
+  color:yellow;
+}
+.team{
+  margin-top:10%;
+  color:white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgb(10, 250, 500);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+}
+
+  
+button {
+  border: none;
+  outline: 1;
+  display: inline-block;
+  padding: 50ex;
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.team{
+  font-size:30px;
+}
+
+.demo{
+color:white;
+font-size:20px;}
+h1{
+  color:green;
+  text-shadow: 5px 0 black;
+}
+marquee{
+  color:yellow;
+font-size:30px;  
+ }
+
+.links{
+  background-color:;
+border-style:solid;
+border-left:none;
+  border-right:none;
+}
+.contact{
+  background-color:black;
+  width:100%;
+   margin:0;
+  bottom:0;
+    top: 100;
+    left: 0;
+  z-index: 10;
+    width: 100%;
+  
+}
+.hackathon{
+  background-color:;
+}
+footer{background-color:purple;
+  margin:0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+p{
+ color:cyan;}
+.internal{
+  margin-top:10%;
+  margin-left:30%;
+width:50%;}
+button{
+ margin-left:30%;
+width:50%;
+  border-style:solid;
+  border-color:red;
+  padding:20px;
+}
+button:hover{
+color:green;
+background-color:white;
+border-color:cyan;}
+h1{
+  text-align:center;
+  font-size:50px;
+  margin-top:10%;
+}
+
+.speaker{
+  margin-top:10%;
+  height:40ex;
+  background-color:white;
+  border-style:solid;
+  border-radius:10%;
+  text-align:center;  
+  width:40ex;
+}
+.circle{
+  margin:2ex;
+  border-radius:40%;
+  width:50%;
+ }
+
+.form{
+  margin-top:-34.8%;
+  margin-left:33.3%;
+  margin-bottom:-10%;
+ }
+.form2{
+margin-top:-31%;
+  margin-left:68%;
+  margin-bottom:-10%;}
+
+.foot{
+  
+  margin-left:0%;
+  position:left;
+  width:100%;
+  opacity:80%;
+  background-color:black;}
+.demo{
+text-align:;
+}
+
+
+
+
+
+
+
+
+
 
 
 
