@@ -1,6 +1,7 @@
 .navbar{
- 
-background-color:white;
+  border-style:solid;
+ border-color:red;
+background-color:RGB(120,410,220);
 width:100%;
 text-align:center;  
 margin-left:0;
@@ -40,10 +41,11 @@ h2{
 .top{
   background-image:url('https://www.hackchennai.in/images/illus.svg')
 ;
-opacity:80%;}
+opacity:98%;}
 
 
 .aboutback{
+  margin-top:10%;
   width:100%;
   height:30%;
   background-color:black;
@@ -74,14 +76,20 @@ line-height: 1.4;
   color:cyan;
   
 }
+.orr{
+  margin;0;
+  font-size:6ex;
+color:white;
+text-align:center;}
 .o{
   margin-left:10%;
  color:white;
 }
-
+hr{
+color:white;}
 
 .content{
-  background-color:;
+  background-color:black;
   color:white;
   margin-top:%;
   font-family: 'Raleway', sans-serif;
@@ -414,7 +422,7 @@ h1{
 .speaker{
   margin-top:10%;
   height:40ex;
-  background-color:white;
+  background-color:;
   border-style:solid;
   border-radius:10%;
   text-align:center;  
@@ -448,6 +456,8 @@ text-align:;
 }
 
 .speaker{
+margin:1%;
+  float:left;
   background-color:black;
   opacity:90%;
   border-color:white;
