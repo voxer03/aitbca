@@ -92,21 +92,26 @@ color:white;}
 .content{
   background-color:;
   color:white;
-  margin-top:%;
+  
   font-family: 'Raleway', sans-serif;
 font-size: 40px;
 text-align:center;
 
 }
 .link{
+  font-family: sans-serif;
   color:cyan;
-font-size: 2rem;
+  
+  
+  
+font-size: 3rem;
 padding: 2rem 0.5rem;
 
 }
 
 .link:hover{
-  color:yellow;
+  color:red;
+  background-color:white;
 }
 .team{
   margin-top:10%;
