@@ -470,9 +470,9 @@ h4{
   color:red;
 }
 .qr{
-  margin-left:50%;
+  margin-left:55%;
    position:right;
-  width:40%;
+  width:29%;
   text-align:right;
   opacity:100%;}
 
@@ -480,6 +480,45 @@ h4{
   color:white;
   font-size:4ex;
 }
+
+h3{
+  
+  width:50%;
+  background-color:black;
+}
+h1{
+  background-color:black;
+  color:yellow;
+  width:40%;
+  opacity:100%;
+}
+.ol{
+text-align:left;
+position:left;
+  font-size:3ex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
