@@ -461,9 +461,14 @@ h3{color:yellow;
   font-size:5ex;
   text-align:center;
 }
+h4{
+  color:white;
+  font-size:15px;
+}
 
-
-
+.notice{
+  color:red;
+}
 
 
 
