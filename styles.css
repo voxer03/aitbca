@@ -469,10 +469,17 @@ h4{
 .notice{
   color:red;
 }
+.qr{
+  margin-left:50%;
+   position:right;
+  width:40%;
+  text-align:right;
+  opacity:100%;}
 
-
-
-
+.a{
+  color:white;
+  font-size:4ex;
+}
 
 
 
