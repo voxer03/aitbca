@@ -41,7 +41,7 @@ h2{
 .top{
   background-image:url('https://www.hackchennai.in/images/illus.svg')
 ;
-opacity:98%;}
+opacity:100%;}
 
 
 .aboutback{
@@ -77,10 +77,11 @@ line-height: 1.4;
   
 }
 .orr{
-  margin;0;
+  margin:0;
   font-size:6ex;
 color:white;
-text-align:center;}
+text-align:center;
+width:100%;}
 .o{
   margin-left:10%;
  color:white;
@@ -89,7 +90,7 @@ hr{
 color:white;}
 
 .content{
-  background-color:black;
+  background-color:;
   color:white;
   margin-top:%;
   font-family: 'Raleway', sans-serif;
@@ -227,122 +228,13 @@ h1{
   width:50%;
  }
 
-.form{
-  margin-top:-34.8%;
-  margin-left:33.3%;
-  margin-bottom:-10%;
- }
-.form2{
-margin-top:-31%;
-  margin-left:68%;
-  margin-bottom:-10%;}
-
-.foot{
-  
-  margin-left:0%;
-  position:left;
-  width:100%;
-  opacity:80%;
-  background-color:black;}
-.demo{
-text-align:;
-}
 
 
 
 
 
 
-body{
-  
-background-image: linear-gradient( 110deg ,cyan,orange,black);
-font-family: 'Poppins', sans-serif;
-font-weight: 500;
-line-height: 1.4;
-}
-.o:hover{
-  font-size:1ex;
-  color:cyan;
-  
-}
-.o{
-  margin-left:10%;
- color:white;
-}
 
-.navba{
-   
-    margin:0;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    left: 0;
-  z-index: 10;
-    width: 100%;
-  height:10%;
-    background-color:green;
-    font-size:5ex;
-    text-align:center;
-    color:white;
-}
-
-.navbar:hover{
-  font-size:1ex;
-  color:cyan;
-  
-}
-.navbar{
-  margin-left:10%;
- color:white;
-}
-.content{
-  background-color:;
-  color:white;
-  margin-top:%;
-  font-family: 'Raleway', sans-serif;
-font-size: 40px;
-text-align:center;
-
-}
-.link{
-  color:cyan;
-font-size: 2rem;
-padding: 2rem 0.5rem;
-
-}
-
-.link:hover{
-  color:yellow;
-}
-.team{
-  margin-top:10%;
-  color:white;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgb(10, 250, 500);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-}
-
-.title {
-  color: white;
-  font-size: 18px;
-}
-
-  
-button {
-  border: none;
-  outline: 1;
-  display: inline-block;
-  padding: 50ex;
-  color: white;
-  background-color: green;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
 
 a{
   text-decoration: none;
@@ -359,10 +251,7 @@ button:hover, a:hover {
 
 .demo{
 color:white;
-font-size:20px;}
-h1{
-  color:green;
-  text-shadow: 5px 0 black;
+
 }
 marquee{
   color:yellow;
@@ -493,13 +382,13 @@ h4{
 
 h3{
   
-  width:50%;
+  width:100%;
   background-color:black;
 }
 h1{
   background-color:black;
   color:yellow;
-  width:40%;
+  width:100%;
   opacity:100%;
 }
 .ol{
