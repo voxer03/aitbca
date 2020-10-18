@@ -1,29 +1,46 @@
-.navbar{
-  border-style:solid;
- border-color:red;
-background-color:RGB(120,410,220);
-width:100%;
-text-align:center;  
-margin-left:0;
-top:0;
-height:8ex;
+ul.bar{
+  /*
+  background-color: #dddddd;
+  width:100%;
+  text-align:center ;
+  height:6ex;
+  */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  position: -webkit-sticky;
+  position:sticky;
+  top: 0;
+  width: 100%;
+}
+.logo{
+  display:flex;
+  background-color: white;
+  margin;
+  padding:0;
+  width:100%;
+}
+img.logo-image{
+  height:10%;
+  width:10%;
+
 }
 
+.selection{
+  user-select: none;
+}
 .bu{
-  
-  color:black;
-  margin-left:5ex;
+  color:white;
+  margin-left:1ex;
+  margin-right: 1ex;
   font-size:25px;
-  }
-.navbar:hover{
-  color:red;
-  position:fixed;
 }
 
 .bu:hover{
-  color:green;
-  font-size:22px;
-  }
+  color:#4CAF50;
+}
 
 .back{
   opacity:80%;
@@ -31,23 +48,51 @@ height:8ex;
 h1{
   opacity:100%;
   font-size:9ex;
-  }
+  border-radius: 30px;
+}
 
 h2{
   font-size:5ex;
 }
+h3.notice-bar{
+  margin-left: 30px;
+  user-select: none;
+  width:80%;
+}
+
+li.star{
+  display: block;
+  float: left;
+  padding: 8px;
+  border-right: 1px solid #bbb;
+  /*background-color: #111;*/
+}
+
+a.bar-value {
+  display: block;
+  padding: 15px;
+  padding-bottom: 50px;
+
+}
 
 
 .top{
-  background-image:url('https://www.hackchennai.in/images/illus.svg')
-;
-opacity:100%;}
+  background-image:url('https://www.hackchennai.in/images/illus.svg');
+  background-attachment: fixed;
+  opacity:100%;
+}
 
+.bca{
+  margin-top:25px; 
+  margin-left: 30px;
+  width:80%;
+}
 
 .aboutback{
   margin-top:10%;
+  border-radius: 50px;
   width:100%;
-  height:30%;
+  height:20%;
   background-color:black;
 }
 
@@ -59,9 +104,11 @@ opacity:100%;}
 }
 
 
-.or{ color:cyan;
+.or{ 
+  color:cyan;
   text-align:center;
-  font-size:5ex;
+  font-size:3ex;
+  padding-bottom: 20px;
 }
 
 body{
@@ -79,9 +126,11 @@ line-height: 1.4;
 .orr{
   margin:0;
   font-size:6ex;
-color:white;
-text-align:center;
-width:100%;}
+  color:pink;
+  text-align:center;
+  width:100%;
+}
+
 .o{
   margin-left:10%;
  color:white;
@@ -92,20 +141,16 @@ color:white;}
 .content{
   background-color:;
   color:white;
-  
   font-family: 'Raleway', sans-serif;
-font-size: 40px;
-text-align:center;
+  font-size: 40px;
+  text-align:center;
 
 }
 .link{
   font-family: sans-serif;
   color:cyan;
-  
-  
-  
-font-size: 3rem;
-padding: 2rem 0.5rem;
+  font-size: 3rem;
+  padding: 2rem 0.5rem;
 
 }
 
@@ -165,7 +210,7 @@ h1{
 }
 marquee{
   color:yellow;
-font-size:30px;  
+  font-size:30px;  
  }
 
 .links{
@@ -193,10 +238,12 @@ footer{background-color:purple;
     bottom: 0;
     left: 0;
     width: 100%;
-
 }
+
 p{
- color:cyan;}
+ color:cyan;
+}
+
 .internal{
   margin-top:10%;
   margin-left:30%;
@@ -233,13 +280,11 @@ h1{
   width:50%;
  }
 
-
-
-
-
-
-
-
+ img.circle2{
+  padding-top: 40px;
+  border-radius:50%;
+  height:50%;
+ }
 
 a{
   text-decoration: none;
@@ -255,29 +300,30 @@ button:hover, a:hover {
 }
 
 .demo{
-color:white;
-
+  color:white;
 }
+
 marquee{
   color:yellow;
-font-size:30px;  
+  font-size:30px;  
  }
 
 .links{
   background-color:;
-border-style:solid;
-border-left:none;
+  border-style:solid;
+  border-left:none;
   border-right:none;
 }
+
 .contact{
   background-color:black;
   width:100%;
-   margin:0;
+  margin:0;
   bottom:0;
-    top: 100;
-    left: 0;
+  top: 100;
+  left: 0;
   z-index: 10;
-    width: 100%;
+  width: 100%;
   
 }
 .hackathon{
@@ -291,22 +337,30 @@ footer{background-color:purple;
 
 }
 p{
- color:cyan;}
+ color:cyan;
+}
+
 .internal{
   margin-top:10%;
   margin-left:30%;
-width:50%;}
+  width:50%;
+}
+
+
 button{
- margin-left:30%;
-width:50%;
+  margin-left:30%;
+  width:50%;
   border-style:solid;
   border-color:red;
   padding:20px;
 }
+
 button:hover{
-color:green;
-background-color:white;
-border-color:cyan;}
+  color:green;
+  background-color:white;
+  border-color:cyan;
+}
+
 h1{
   text-align:center;
   font-size:50px;
@@ -345,8 +399,9 @@ margin-top:-31%;
   width:100%;
   opacity:80%;
   background-color:black;}
+
 .demo{
-text-align:;
+  text-align:;
 }
 
 .speaker{
@@ -364,6 +419,7 @@ margin:1%;
 h3{color:yellow;
   font-size:5ex;
   text-align:center;
+  border-radius: 30px;
 }
 h4{
   color:white;
