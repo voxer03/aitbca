@@ -1,32 +1,94 @@
-ul.bar{
+
+
+@media screen and (max-width: 992px) {
+  ul.bar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    width: 100%;
+  }
+  li.star{
+    border-bottom: 1px solid #bbb;
+  }
+  .logo{
+    justify-content: center;
+    background-color: black;
+    border-bottom: 2px solid #bbb;
+    height:100px;
+  }
+  img.logo-image{
+      height:100%;
+  }
+  .notice-bar{
+    margin-top:20rem;
+  }
+  .notice{
+    padding-top:0.6rem;
+  }
+  .qr{
+    padding-top:20px;
+    margin-left: 20%;
+    width:50%;
+    text-align:right;
+    opacity:100%;
+  }
+  .ol{
+    padding-top: 120px;
+  }
+  
+}
+@media screen and (min-width: 992px){
+  ul.bar{
   /*
   background-color: #dddddd;
   width:100%;
   text-align:center ;
   height:6ex;
   */
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #111;
-  position: -webkit-sticky;
-  position:sticky;
-  top: 0;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: -webkit-sticky;
+   position:sticky;
+    top: 0;
+    width: 100%;
+  }
+  img.logo-image{
+    height:9%;
+    width:9%;
+  }
+  .qr{
+    margin-left:55%;
+    position:right;
+    width:29%;
+    text-align:right;
+    opacity:100%;
+  }
 }
+
+
 .logo{
   display:flex;
-  background-color: white;
-  margin;
+  background-color: #111;
   padding:0;
   width:100%;
+   border-bottom: 2px solid #bbb;
 }
+/*
 img.logo-image{
-  height:10%;
-  width:10%;
-
+  height:9%;
+  width:9%;
 }
+*/
 
 .selection{
   user-select: none;
@@ -93,6 +155,7 @@ a.bar-value {
   border-radius: 50px;
   width:100%;
   height:20%;
+  opacity:90%;
   background-color:black;
 }
 
@@ -105,6 +168,7 @@ a.bar-value {
 
 
 .or{ 
+  user-select: none;
   color:cyan;
   text-align:center;
   font-size:3ex;
@@ -124,7 +188,9 @@ line-height: 1.4;
   
 }
 .orr{
+  user-select: none;
   margin:0;
+  padding-top: 10px;
   font-size:6ex;
   color:pink;
   text-align:center;
@@ -429,12 +495,7 @@ h4{
 .notice{
   color:red;
 }
-.qr{
-  margin-left:55%;
-   position:right;
-  width:29%;
-  text-align:right;
-  opacity:100%;}
+
 
 .a{
   color:white;
@@ -458,30 +519,3 @@ text-align:left;
 position:left;
   font-size:3ex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
