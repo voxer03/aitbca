@@ -6,7 +6,11 @@
 <li>Extra Courses</li>
 <li>Hackathon Updates....</li>
   </ol>
-  <h2>Reasone Why I built ?</h2> 
+  <h2>Reasone Why I Developed this website ?</h2> 
 AS when I begain my journey in the college there were no one to guide me about my course or what should I do ? How  should I do?
-when i get to know about all these stuff it was bit late for that
-so the new students don't get confused like i got so i build this website
+when i get to know about all these stuff, it was bit late for that,
+ so i Developed this website so that they will get help in thier academics through website.
+ <br>
+ Thankyou 
+ <br>
+ BCA-Buddy
