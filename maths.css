@@ -5,17 +5,13 @@ body{
 font-weight: 500;
 line-height: 1.4;
 }
-#myVideo {
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-video{
-  position:fixed;
-  width:100%;
-  bottom: 0;
+  top: 0;
+  left: 0;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -159,6 +155,7 @@ p{
   margin-left:30%;
 width:50%;}
 button{
+  opacity:100%;
  margin-left:30%;
 width:50%;
   border-style:solid;
@@ -170,6 +167,14 @@ color:green;
 background-color:white;
 border-color:cyan;}
 
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  display: ;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
