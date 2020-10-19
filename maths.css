@@ -1,11 +1,32 @@
 body{
   
-background-image:url('https://www.versionbeta.istemanit.in/pictures/background.jpg');
-font-family: 'Poppins', sans-serif;
+
+  font-family: 'Poppins', sans-serif;
 font-weight: 500;
 line-height: 1.4;
 }
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+video{
+  position:fixed;
+  width:100%;
+  bottom: 0;
+}
 
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
 .navba{
    
     margin:0;
@@ -16,7 +37,7 @@ line-height: 1.4;
   z-index: 10;
     width: 100%;
   height:8%;
-    background-color:purple;
+    background-color:darkcyan;
     font-size:5ex;
     text-align:center;
     color:white;
@@ -70,12 +91,12 @@ button {
   border: none;
   outline: 1;
   display: inline-block;
-  padding: 8px;
+  padding: 2px;
   color: white;
   background-color: green;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 20%;
   font-size: 18px;
 }
 
@@ -148,16 +169,8 @@ button:hover{
 color:green;
 background-color:white;
 border-color:cyan;}
-h1{
-  text-align:center;
-  font-size:50px;
-  margin-top:10%;
-}
-footer{
-  width:100%;
-  margin:0%;
-  background-color:black;
-}
+
+
 
 
 
