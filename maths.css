@@ -18,11 +18,11 @@ video {
 .content {
   position: ;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: black;
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-  opacity:90%;
+  opacity:78%;
 }
 .navba{
    
