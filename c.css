@@ -16,12 +16,13 @@ video {
 
 /* Add some content at the bottom of the video/page */
 .content {
-  position: fixed;
+  position: ;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: black;
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+  opacity:78%;
 }
 .navba{
    
@@ -49,52 +50,24 @@ video {
  color:white;
 }
 .content{
-  background-color:;
+  
   color:white;
-  margin-top:%;
   font-family: 'Raleway', sans-serif;
-font-size: 40px;
-text-align:center;
+  font-size: 40px;
+  text-align:center;
 
 }
 .link{
   color:cyan;
-font-size: 2rem;
-padding: 2rem 0.5rem;
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
 
 }
 
 .link:hover{
   color:yellow;
 }
-.team{
-  margin-top:10%;
-  color:white;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgb(10, 250, 500);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-}
 
-.title {
-  color: white;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 1;
-  display: inline-block;
-  padding: 2px;
-  color: white;
-  background-color: green;
-  text-align: center;
-  cursor: pointer;
-  width: 20%;
-  font-size: 18px;
-}
 
 a{
   text-decoration: none;
@@ -102,81 +75,16 @@ a{
   color: white;
 }
 
-button:hover, a:hover {
-  opacity: 0.7;
-}
-.team{
-  font-size:30px;
-}
 
-.demo{
-color:white;
-font-size:20px;}
+
+
 h1{
   color:#be3144;
   text-shadow: 10px 0 blue;
 }
-marquee{
-  color:yellow;
-font-size:30px;  
- }
 
-.links{
-  background-color:;
-border-style:solid;
-border-left:none;
-  border-right:none;
-}
-.contact{
-  background-color:black;
-  width:100%;
-   margin:0;
-  bottom:0;
-    top: 100;
-    left: 0;
-  z-index: 10;
-    width: 100%;
+.viewport-header{
   
 }
-.hackathon{
-  background-color:;
-}
-footer{background-color:purple;
-  margin:0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-
-}
-p{
- color:cyan;}
-.internal{
-  margin-top:10%;
-  margin-left:30%;
-width:50%;}
-button{
-  opacity:100%;
- margin-left:30%;
-width:50%;
-  border-style:solid;
-  border-color:red;
-  padding:20px;
-}
-button:hover{
-color:green;
-background-color:white;
-border-color:cyan;}
-
-
-.viewport-header {
-  position: relative;
-  height: 100vh;
-  display: ;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
 
 
