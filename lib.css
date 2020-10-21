@@ -23,18 +23,18 @@
 .product-info {
   float: left;
   height: 420px;
-  width: 327px;
+  width: 300px;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
 }
 
 .product-text {
   height: 300px;
-  width: 327px;
+  width: 310px;
 }
 
 .product-text h1 {
-  margin: 0 0 0 38px;
+  margin: 0 0 0 3px;
   padding-top: 52px;
   font-size: 34px;
   color: #474747;
@@ -61,7 +61,7 @@
 
 .product-price-btn button {
   height: 50px;
-  width: 176px;
+  width: 170px;
   box-sizing: border-box;
   border: transparent;
   border-radius: 6px;
@@ -106,9 +106,16 @@
  color:white;
 }
 
-
-
-
+.left{
+  margin-top:4ex;
+  margin:1%;
+  float:left;
+}
+.rig{
+  float:right;
+  width:529px;
+padding:0.2px;
+}
 
 
 
