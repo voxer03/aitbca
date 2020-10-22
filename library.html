@@ -19,7 +19,8 @@
   rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
 </head>
-<body>
+<body  style="color:cyan;
+  background-color:black;">
   <!--start navbar-->
    <audio autoplay loop>
       <source src="lib.mp3">
@@ -27,12 +28,23 @@
   <video autoplay muted loop id="myVideo">
   <source src="lib.mp4" type="video/mp4">
 </video>
-<div class="navba">
+<div class="navba" id="nav">
   <a class="navbar" href="index.html">HOME</a> 
   <a class="navbar" href="index.html.html">BCA</a>
   <a class="navbar" href="courses.html">Extra Courses</a>
   <a class="navbar" href="contact.html">ContactUs</a>
   </div>
+  <!--end navbar-->
+  <div class="bulb">
+  <button onclick="on()">Turn on the light</button>
+
+<img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+
+<button onclick="off()">Turn off the light</button>
+ 
+  </div>   
+    
+ <!--book 1-->   
   <div class="left">
   <div class="wrapper">
     <div class="product-img">
@@ -92,7 +104,7 @@
   </div> 
    </div>  
   
-  
+<script src="lib.js">  
 </body>
 
 </html>
